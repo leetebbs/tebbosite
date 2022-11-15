@@ -1,0 +1,25 @@
+.navlinks{
+    position:flex;
+    flex-direction: column;
+    text-align: center;
+    width:95%;
+    height:160px;
+    padding-top: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background-color:#1E1E1E;
+    color:white;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+.linkText{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}

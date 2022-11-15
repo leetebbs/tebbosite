@@ -1,0 +1,71 @@
+.about {
+  position: absolute;
+  width: 117px;
+  height: 36px;
+  left: 35px;
+  top: 150px;
+
+  /* font-family: 'Poppins'; */
+  font-style: bold;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.container {
+  /* position: absolute; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  color: white;
+  /* font-family: "Poppins"; */
+  font-size: 24px;
+  text-align: center;
+}
+
+.textArea {
+  position: relative;
+  width: 300px;
+  height: 335px;
+  /* left: 30px; */
+  top: 110px;
+  background-color: rgb(44, 44, 44);
+  padding-top:30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* font-family: 'Poppins'; */
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(112, 111, 111);
+  border-radius: 18px;
+}
+
+.stackImage {
+  position: relative;
+  width: 315px;
+  height: 212px;
+  /* left: 30px; */
+  top: 130px;
+}
+
+.contact{
+  position: relative;
+  /* width: 315px;
+  height: 212px; */
+  /* left: 30px; */
+  top: 130px;
+  padding-bottom: 20px;
+}

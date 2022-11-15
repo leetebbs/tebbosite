@@ -1,0 +1,97 @@
+.container {
+    /* position: absolute; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    color: white;
+    /* font-family: "Poppins"; */
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .contactButton{
+    margin-bottom: 30px;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: space-between;
+    margin-left:80px;
+    margin-right:80px;
+    padding-top:10px;
+  }
+
+ a{
+  color: white;
+ }
+
+  .title{
+    position: absolute;
+    width: 117px;
+    height: 36px;
+    left: 25px;
+    top: 150px;
+  
+    /* font-family: 'Poppins'; */
+    font-style: bold;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  
+    /* identical to box height */
+    text-align: center;
+  
+    color: #ffffff;
+  }
+
+  .bees{
+    position: absolute;
+    width: 315px;
+    top: 230px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+  }
+  .pots{
+    position: absolute;
+    width: 315px;
+    top: 550px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+  }
+  .badcr{
+    position: absolute;
+    width: 315px;
+    top: 850px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+  }
+  .shortr{
+    position: absolute;
+    width: 315px;
+    top: 1150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+  }
+
