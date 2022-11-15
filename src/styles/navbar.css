@@ -1,0 +1,22 @@
+@media screen and (min-width: 900px) {
+
+    .navlinks{
+      display: none;
+    }
+    
+    .hamburger{
+      display: none;
+    }
+    
+    .navbar{
+      display: flex;
+      color: white;
+      margin-right: 30px;
+    }
+
+    .linkText{
+      margin-left: 30px;
+      font-size: 24px;
+    }
+    
+    }

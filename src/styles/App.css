@@ -93,4 +93,32 @@ p {
   z-index:1;
 }
 
+.navbar{
+  display: none;
+}
 
+/* @media screen and (min-width: 900px) {
+.container{
+  background-color: red;
+}
+.navlinks{
+  display: none;
+}
+
+.hamburger{
+  display: none;
+}
+
+.navbar{
+  display: block;
+  color: white;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  text-decoration: none;
+}
+} */

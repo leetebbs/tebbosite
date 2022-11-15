@@ -1,10 +1,11 @@
-import "../styles/Navlinks.css";
+import React from "react";
+import "../styles/navbar.css";
 import { Link } from "react-router-dom";
 
-const Navlinks = () => {
+function Navbar() {
   return (
     <>
-      <div className="navlinks">
+      <div className="navbar">
         <Link to="/" className="linkText">
           Home
         </Link>
@@ -15,9 +16,14 @@ const Navlinks = () => {
           Portfolio
         </Link>
       </div>
-      <div className="close">X</div>
+      {/* <div className="close">X</div> */}
+      {/* <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Portfolio</li>
+        </ul> */}
     </>
   );
-};
+}
 
-export default Navlinks;
+export default Navbar;
